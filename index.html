@@ -12,40 +12,39 @@
     
     
     <link rel="stylesheet" href="style.css">
-    <title>My web site1</title>
+    <title>The FPV Hobby</title>
 </head>
 <body>
     <header>
         <div class="columns">
-            <div class="wrap-nav">
-                <div class="column is-1">
+                <div class="column is-narrow" style="width: 120px;">
                     <a href="index.html"><img class="logo-img" src="img/logo.png" alt="logo"></a>
                 </div>
 
                 <div class="column is-9">
                     <div class="navbar">
                         <div class="dropdown">
-                        <a>Pages</a>
-                        <div class="dropdown-content">
-                            <a class="dd-menu" href="#">Home</a>
-                            <a class="dd-menu" href="#">Contact</a>
-                        </div>
+                            <div class="nav-dd"></div>
+                            <a class="nav-a">Pages</a>
+                            <div class="dropdown-content">
+                                <a class="dd-menu" href="#">Some of the best</a>
+                                <a class="dd-menu" href="#">Contact</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
         </div>
     </header>
     <main>
-        <div class="columns">
+        <div id="carousel" class="columns">
 
-            <div class="column is-2">
+            <div class="column is-one-fifth">
                 <div class="wrap-title">
-                    <h2 class="title">Some of the best:</h2>
+                    <h2 class="title">Drones news:</h2>
                 </div>
             </div>
 
-            <div class="column is-9">
+            <div class="column is-narrow" style="max-width: 81%;">
                 <div class="wrap-ef">
                     <hr style="height: 2px; border: none; background-color: rgb(0, 255, 187);">
 
@@ -94,6 +93,10 @@
                 </div>    
             </div>
         </div>
+
+        <div id="2-art"></div>
+
+        <div id="3-art"></div>
     </main>
 
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>

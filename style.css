@@ -1,25 +1,42 @@
 body {
     margin: 0;
     font-family: 'Arial', sans-serif;
-    background-color: #333;
+    
 }
 
 header{
-    border-bottom: 3px solid white;
-    margin-bottom: 20px;
-    background-color: #000000;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: black;
+}
+main {
+    background-color: #333;
+    padding: 0px 18px;
 }
 
-.wrap-nav {
+.nav-dd {
+    padding-top: 5px;
+}
+
+.nav-a {
+    font-size: 20px;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+}
+.nav-a:hover {
+    color: black;
+    background-color: white;
 }
 
 .logo-img {
-    padding: 10px 10px 6px 10px;
+    padding: 8px 8px 8px 8px;
     max-width: 80px;
+    border-radius: 25px;
 }
 
 .navbar {
-    background-color: #000000;
+    background-color: transparent;
     padding: 15px;
     text-align: center;
 }
@@ -57,6 +74,12 @@ header{
 
 .dd-menu:hover {
     background-color: #333;
+}
+
+/*********************************************************************/
+
+.slick-carousel {
+    max-width: 1500px;
 }
 
 .wrap-title {
