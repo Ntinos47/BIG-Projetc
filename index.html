@@ -16,23 +16,23 @@
 </head>
 <body>
     <header>
-        <div class="columns">
-                <div class="column is-narrow" style="width: 120px;">
+        <div class="navbar-fixed">
+            <div class="columns">
+                <div class="column is-narrow">
                     <a href="index.html"><img class="logo-img" src="img/logo.png" alt="logo"></a>
                 </div>
 
-                <div class="column is-9">
-                    <div class="navbar">
-                        <div class="dropdown">
-                            <div class="nav-dd"></div>
-                            <a class="nav-a">Pages</a>
-                            <div class="dropdown-content">
-                                <a class="dd-menu" href="#">Some of the best</a>
-                                <a class="dd-menu" href="#">Contact</a>
-                            </div>
+                <div class="column is-3 wrap-nav">
+                    <a href="index.html" class="nav-btn">Home</a>
+                    <div class="dropdown">
+                        <button class="dropbtn">Pages</button>
+                        <div class="dropdown-content">
+                            <a href="#carousel">Carousel</a>
+                            <a href="#twoArt">Articles</a>
                         </div>
                     </div>
                 </div>
+            </div>
         </div>
     </header>
     <main>
@@ -44,7 +44,7 @@
                 </div>
             </div>
 
-            <div class="column is-narrow" style="max-width: 81%;">
+            <div class="column is-narrow" style="min-width: 100%;">
                 <div class="wrap-ef">
                     <hr style="height: 2px; border: none; background-color: rgb(0, 255, 187);">
 
@@ -93,10 +93,105 @@
                 </div>    
             </div>
         </div>
+        
+        <div id="twoArt" class="twoArt">
+            <div class="columns">
+                <div class="column is-3"></div> 
+                <div class="column is-3">
+                    <a href="#">
+                        <article>
+                            <div class="wrap-img">
+                                <img src="img/FPV-build.jpeg">
+                            </div>
+                            <div class="wrap-post">
+                                <div class="wrap-header">
+                                    <h3>How to build an FPV drone step by step</h3>
+                                </div>
+                                <div class="wrap-postmeta">
+                                    <p class="theme">For noobs</p>
+                                </div>
+                            </div>
+                        </article>
+                    </a>
+                </div>
+                
+                <div class="column is-3">
+                    <a href="##">
+                        <article>
+                            <div class="wrap-img">
+                                <img src="img/DJI-FPV.jpeg">
+                            </div>
+                            <div class="wrap-post">
+                                <div class="wrap-header">
+                                    <h3>Should I buy a normal Drone or an FPV</h3>
+                                </div>
+                                <div class="wrap-postmeta">
+                                    <p class="theme">What is best for you?</p>
+                                </div>
+                            </div>
+                        </article>
+                    </a>
+                </div>
+                <div class="column is-3"></div>
+            </div>
+        </div>
 
-        <div id="2-art"></div>
+        <div id="threeArt" class="threeArt">
+            <div class="columns">
+                <div class="column is-one-third">
+                    <a href="#">
+                        <article>
+                            <div class="wrap-img">
+                                <img src="img/FPV-3.jpeg">
+                            </div>
+                            <div class="wrap-post">
+                                <div class="wrap-header">
+                                    <h3>New quad is coming out on March</h3>
+                                </div>
+                                <div class="wrap-postmeta">
+                                    <p class="theme">The absolute best?</p>
+                                </div>
+                            </div>
+                        </article>
+                    </a>
+                </div>
+                
+                <div class="column is-one-third">
+                    <a href="##">
+                        <article>
+                            <div class="wrap-img">
+                                <img src="img/FPV-BEST.jpeg">
+                            </div>
+                            <div class="wrap-post">
+                                <div class="wrap-header">
+                                    <h3>That's the best FPV drone for beginners!</h3>
+                                </div>
+                                <div class="wrap-postmeta">
+                                    <p class="theme">What make's it different?</p>
+                                </div>
+                            </div>
+                        </article>
+                    </a>
+                </div>
 
-        <div id="3-art"></div>
+                <div class="column is-one--third">
+                    <a href="##">
+                        <article>
+                            <div class="wrap-img">
+                                <img src="img/FPV-1.jpeg">
+                            </div>
+                            <div class="wrap-post">
+                                <div class="wrap-header">
+                                    <h3>Why to buy an FPV drone?</h3>
+                                </div>
+                                <div class="wrap-postmeta">
+                                    <p class="theme">5 reasons</p>
+                                </div>
+                            </div>
+                        </article>
+                    </a>
+                </div>
+        </div>
     </main>
 
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
