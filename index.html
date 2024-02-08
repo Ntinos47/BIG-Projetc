@@ -15,14 +15,15 @@
     <title>The FPV Hobby</title>
 </head>
 <body>
+
     <header>
         <div class="navbar-fixed">
-            <div class="columns">
+            <div class="columns" style="display: flex;">
                 <div class="column is-narrow">
                     <a href="index.html"><img class="logo-img" src="img/logo.png" alt="logo"></a>
                 </div>
 
-                <div class="column is-3 wrap-nav">
+                <div class="column is-2 wrap-nav">
                     <a href="index.html" class="nav-btn">Home</a>
                     <div class="dropdown">
                         <button class="dropbtn">Pages</button>
@@ -35,47 +36,63 @@
             </div>
         </div>
     </header>
-    <main>
-        <div id="carousel" class="columns">
 
-            <div class="column is-one-fifth">
+    <main>
+        <div id="carousel" class="columns carousel" style="margin-top: 80px;">
+
+            <div class="column is-narrow" style="width: 280px;">
                 <div class="wrap-title">
-                    <h2 class="title">Drones news:</h2>
+                    <h1 class="title">New Drones:</h1>
                 </div>
             </div>
 
             <div class="column is-narrow" style="min-width: 100%;">
                 <div class="wrap-ef">
-                    <hr style="height: 2px; border: none; background-color: rgb(0, 255, 187);">
-
+                    <hr style="height: 3px; width: 1540px; border: none; background-color: #BAFF39;">
 
                     <div class="wrap-carousel">
                         <div id="slick">
                             <div class="slick-carousel">
-                                <div id="wrap-img">
-                                    <img src="img/FPV-1.jpeg">
-                                </div>
-                                <div id="wrap-img">  
-                                    <img src="img/FPV-2.jpeg">
-                                </div>
-                                <div id="wrap-img">
-                                    <img src="img/FPV-BEST.jpeg">
-                                </div>
-                                <div id="wrap-img">
-                                    <img src="img/FPV-build.jpeg">
-                                </div>
-                                <div id="wrap-img">
-                                    <img src="img/DJI-FPV.jpeg">
-                                </div>
-                                <div id="wrap-img">  
-                                    <img src="img/FPV-1.jpeg">
-                                </div>
-                                <div id="wrap-img">
-                                    <img src="img/FPV-BEST.jpeg">
-                                </div>
-                                <div id="wrap-img">
-                                    <img src="img/FPV-2.jpeg">
-                                </div>
+                                <a href="#">
+                                    <div id="wrap-img">
+                                        <img src="img/FPV-1.jpeg">
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div id="wrap-img">  
+                                        <img src="img/FPV-2.jpeg">
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div id="wrap-img">
+                                        <img src="img/FPV-BEST.jpeg">
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div id="wrap-img">
+                                        <img src="img/FPV-build.jpeg">
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div id="wrap-img">
+                                        <img src="img/DJI-FPV.jpeg">
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div id="wrap-img">  
+                                        <img src="img/FPV-1.jpeg">
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div id="wrap-img">
+                                        <img src="img/FPV-BEST.jpeg">
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div id="wrap-img">
+                                        <img src="img/FPV-2.jpeg">
+                                    </div>
+                                </a>
                             </div>
                             
                             <div id="slick-buttons">
@@ -96,7 +113,8 @@
         
         <div id="twoArt" class="twoArt">
             <div class="columns">
-                <div class="column is-3"></div> 
+                <div class="column is-3"></div>
+
                 <div class="column is-3">
                     <a href="#">
                         <article>
@@ -132,13 +150,15 @@
                         </article>
                     </a>
                 </div>
+
                 <div class="column is-3"></div>
             </div>
         </div>
 
         <div id="threeArt" class="threeArt">
             <div class="columns">
-                <div class="column is-one-third">
+                <div class="column is-one-fifth"></div>
+                <div class="column is-one-fifth">
                     <a href="#">
                         <article>
                             <div class="wrap-img">
@@ -156,7 +176,7 @@
                     </a>
                 </div>
                 
-                <div class="column is-one-third">
+                <div class="column is-one-fifth">
                     <a href="##">
                         <article>
                             <div class="wrap-img">
@@ -174,7 +194,7 @@
                     </a>
                 </div>
 
-                <div class="column is-one--third">
+                <div class="column is-one-fifth">
                     <a href="##">
                         <article>
                             <div class="wrap-img">
@@ -191,8 +211,40 @@
                         </article>
                     </a>
                 </div>
+                <div class="column is-one-fifth"></div>
+            </div>
+        </div>
+        
+        <div class="sub-banner">
+            <div>
+                <h3>To subscribe to our web site click <a href="###">Here</a></h3>
+            </div>
         </div>
     </main>
+
+    <footer>
+        <div class="wrap-footer">
+            <hr style="height: 2px; border: none; background-color: black">
+            <div class="columns">
+        
+                <div class="column is-half">
+                    <h3></h3>
+                    <div class="wrap-first-half">
+                        <ul>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="column is-half">
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
