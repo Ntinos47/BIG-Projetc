@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
     
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     
     <link rel="stylesheet" href="style.css">
     <title>The FPV Hobby</title>
@@ -19,11 +20,11 @@
     <header>
         <div class="navbar-fixed">
             <div class="columns" style="display: flex;">
-                <div class="column is-narrow">
+                <div class="column is-narrow" style="max-width: 100px;">
                     <a href="index.html"><img class="logo-img" src="img/logo.png" alt="logo"></a>
                 </div>
 
-                <div class="column is-2 wrap-nav">
+                <div class="column is-narrow wrap-nav">
                     <a href="index.html" class="nav-btn">Home</a>
                     <div class="dropdown">
                         <button class="dropbtn">Pages</button>
@@ -38,7 +39,7 @@
     </header>
 
     <main>
-        <div id="carousel" class="columns carousel" style="margin-top: 80px;">
+        <div id="carousel" class="columns carousel" >
 
             <div class="column is-narrow" style="width: 280px;">
                 <div class="wrap-title">
@@ -48,7 +49,7 @@
 
             <div class="column is-narrow" style="min-width: 100%;">
                 <div class="wrap-ef">
-                    <hr style="height: 3px; width: 1540px; border: none; background-color: #BAFF39;">
+                    <hr style="height: 3px; border: none; background-color: #BAFF39;">
 
                     <div class="wrap-carousel">
                         <div id="slick">
@@ -222,27 +223,41 @@
         </div>
     </main>
 
+    <hr style="height: 2px; border: none; background-color: black; margin-bottom: 0px;">
     <footer>
-        <div class="wrap-footer">
-            <hr style="height: 2px; border: none; background-color: black">
-            <div class="columns">
-        
-                <div class="column is-half">
-                    <h3></h3>
-                    <div class="wrap-first-half">
-                        <ul>
-                            <li></li>
-                        </ul>
+        <div class="footer-clean">
+            <footer>
+
+
+                <div class="container">
+                    <div class="row justify-content-center flex-footer">
+                        <div class="col-sm-4 col-md-3 item-1">
+                            <h3>Services</h3>
+                            <ul>
+                                <li><a href="#">Web design</a></li>
+                                <li><a href="#">Development</a></li>
+                                <li><a href="#">Hosting</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-4 col-md-3 item-2">
+                            <h3>About</h3>
+                            <ul>
+                                <li><a href="#">Company</a></li>
+                                <li><a href="#">Team</a></li>
+                                <li><a href="#">Legacy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a>
+                            <p class="copyright">Ntinos-site © 2024</p>
                     </div>
                 </div>
 
-                <div class="column is-half">
 
-                </div>
-            </div>
+            </footer>
         </div>
     </footer>
-    
+
 
     <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 

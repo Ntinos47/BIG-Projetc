@@ -6,8 +6,11 @@ body {
 header{
     background-color: black;
 }
-footer{
-    background-color: #77b408;
+footer {
+    background-color: #5a8904;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 30px;
 }
 
 #myBtn {
@@ -20,7 +23,6 @@ footer{
     background-color: #43fa27;
     color: black;
     cursor: pointer;
-    padding: 15px;
     border-radius: 14px;
     border: 1px solid black;
 } 
@@ -33,6 +35,7 @@ footer{
 .wrap-nav {
     display: flex;
     align-items: center;
+    margin-left: 30px;
 }
 
 .logo-img {
@@ -45,15 +48,14 @@ footer{
 .nav-btn {
     background-color: white;
     color: black;
-    padding: 9px;
-    font-size: 16px;
+    padding: 7px;
+    font-size: 18px;
     border: none;
     border-radius: 10px;
     display: flex;
     align-items: center;
-    justify-content: center; 
+    justify-content: center;
     margin-right: 10px;
-    display: flex;
 }
 .nav-btn:hover {
     background-color: rgb(202, 202, 202);
@@ -62,7 +64,7 @@ footer{
 
 
 .navbar-fixed {
-    float:none ;
+    float: none;
     background-color: black;
     position: fixed;
     top: 0;
@@ -84,8 +86,8 @@ footer{
 .dropbtn {
     background-color: white;
     color: black;
-    padding: 12px;
-    font-size: 16px;
+    padding: 10px;
+    font-size: 18px;
     border: none;
     border-radius: 10px;
     display: flex;
@@ -174,9 +176,12 @@ footer{
     justify-content: center;
     width: 20px;
     height: 20px;
-    color: white;
+    color: rgba(255, 255, 255, 0.65);
     cursor: pointer;
     font-size: 20px;
+}
+#arrow:hover {
+    color:white;
 }
 
 
@@ -251,4 +256,90 @@ article:hover {
 
 .sub-banner a {
     text-decoration: underline;
+}
+
+
+/*********************************************************************/
+
+.footer-clean {
+    background-color:#fff;
+    color:#4b4c4d;
+}
+  
+.footer-clean h3 {
+    margin-top:0;
+    margin-bottom:12px;
+    font-weight:bold;
+    font-size:20px;
+}
+  
+.flex-footer {
+    display: flex;
+    justify-content: center;
+}
+.item-2 {
+    margin-left: 30%;
+}
+
+.footer-clean ul {
+    padding:0;
+    list-style:none;
+    line-height:1.6;
+    font-size:18px;
+    margin-bottom:0;
+}
+  
+.footer-clean ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+}
+  
+.footer-clean ul a:hover {
+    opacity:1;
+    font-size: 18.2px;
+}
+  
+.footer-clean .item.social {
+    text-align:right;
+}
+  
+@media (max-width:767px) {
+    .footer-clean .item {
+      text-align:center;
+      padding-bottom:20px;
+    }
+}
+  
+  @media (max-width: 768px) {
+    .footer-clean .item.social {
+      text-align:center;
+    }
+  }
+  
+.footer-clean .item.social > a {
+    font-size:28px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ffffff;
+    margin-left:10px;
+    margin-top:22px;
+    color:inherit;
+    opacity:0.75;
+}
+  
+.footer-clean .item.social > a:hover {
+    opacity:1;
+}
+  
+  
+.footer-clean .copyright {
+    margin-top:14px;
+    margin-bottom:0;
+    font-size:14px;
+    opacity:0.6;
 }
