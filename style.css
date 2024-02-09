@@ -1,5 +1,5 @@
 body {
-    margin-top: 85px;
+    padding-top: 80px;
     background-color: #6E6E6E;
 }
 
@@ -131,7 +131,7 @@ footer {
 /*********************************************************************/
 .slick-carousel {
     max-width: 1650px;
-    margin-left: 4%;
+    margin-left: 4.5%;
 }
 
 .wrap-title {
