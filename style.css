@@ -206,10 +206,6 @@ img {
     object-fit: cover;
     object-position: center;
 }
-.wrap-img {
-    position: relative;
-}
-
 
 .threeArt {
     margin-top: 20px;
