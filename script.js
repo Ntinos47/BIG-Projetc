@@ -4,8 +4,6 @@ $(document).ready(function() {
       prevArrow: '.arrow_prev',
       nextArrow: '.arrow_next',
       infinite: true,
-      slidesToShow: 4,
-      slidesToScroll: 1,
 
       autoplay: true,
       autoplaySpeed: 1800,
@@ -13,7 +11,6 @@ $(document).ready(function() {
     });
 
 });
-
 
 
 // Get the button
