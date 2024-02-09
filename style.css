@@ -7,10 +7,10 @@ header{
     background-color: black;
 }
 footer {
-    background-color: #5a8904;
+    background-color: #6ea703;
     color: white;
     padding-top: 20px;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 
 .columns {
@@ -269,15 +269,15 @@ img {
 /*********************************************************************/
 
 .footer-clean {
-    background-color:#fff;
-    color:#4b4c4d;
+    background-color: #fff;
+    color: #4b4c4d;
 }
   
 .footer-clean h3 {
-    margin-top:0;
-    margin-bottom:12px;
-    font-weight:bold;
-    font-size:20px;
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-weight: bold;
+    font-size: 20px;
 }
   
 .flex-footer {
@@ -289,22 +289,22 @@ img {
 }
 
 .footer-clean ul {
-    padding:0;
-    list-style:none;
-    line-height:1.6;
-    font-size:18px;
-    margin-bottom:0;
+    padding: 0;
+    list-style: none;
+    line-height: 1.6;
+    font-size: 18px;
+    margin-bottom: 0;
 }
   
 .footer-clean ul a {
-    color:inherit;
-    text-decoration:none;
-    opacity:0.8;
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
 }
   
 .footer-clean ul a:hover {
     opacity:1;
-    font-size: 18.2px;
+    font-weight: 600;
 }
   
 .footer-clean .item.social {
@@ -313,16 +313,16 @@ img {
   
 @media (max-width:767px) {
     .footer-clean .item {
-      text-align:center;
-      padding-bottom:20px;
+        text-align:center;
+        padding-bottom:20px;
     }
 }
   
-  @media (max-width: 768px) {
+@media (max-width: 768px) {
     .footer-clean .item.social {
-      text-align:center;
+        text-align:center;
     }
-  }
+}
   
 .footer-clean .item.social > a {
     font-size:28px;
@@ -347,6 +347,6 @@ img {
 .footer-clean .copyright {
     margin-top:14px;
     margin-bottom:0;
-    font-size:14px;
+    font-size: 14px;
     opacity:0.6;
 }
