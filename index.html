@@ -29,8 +29,8 @@
                     <div class="dropdown">
                         <button class="dropbtn">Pages</button>
                         <div class="dropdown-content">
-                            <a href="#carousel">Carousel</a>
-                            <a href="#twoArt">Articles</a>
+                            <button onclick="carouselFunction()" id="nav-btn-dd">Carousel</button>
+                            <button onclick="artFunction()" id="nav-btn-dd">Articles</button>
                         </div>
                     </div>
                 </div>
@@ -63,9 +63,9 @@
                                 </div>
                                 <div id="carousel-art">
                                     <div id="wrap-img"> 
-                                         <a href="#">
+                                            <a href="#">
                                             <img src="img/FPV-2.jpeg">
-                                         </a>
+                                            </a>
                                     </div>
                                 </div>
                                 <div id="carousel-art">
@@ -125,7 +125,6 @@
 
 
                 </div>    
-            </div>
             </div>
         </div>
         
@@ -240,14 +239,19 @@
         </div>
     </main>
 
-    <hr style="height: 2px; border: none; background-color: black; margin-bottom: 0px;">
+    <hr style="height: 2px; border: none; background-color: black; margin-bottom: 0px;" alt="Top">
     <footer>
+
         <div class="footer-clean">
             <footer>
 
-
                 <div class="container">
+                    <div class="column is-narrow" style="max-width: 100px;">
+                        <a href="index.html"><img class="logo-img" src="img/logo.png" alt="logo"></a>
+                    </div>
+
                     <div class="row justify-content-center flex-footer">
+
                         <div class="col-sm-4 col-md-3 item-1">
                             <h3>Services</h3>
                             <ul>
@@ -256,6 +260,7 @@
                                 <li><a href="#">Hosting</a></li>
                             </ul>
                         </div>
+
                         <div class="col-sm-4 col-md-3 item-2">
                             <h3>About</h3>
                             <ul>
@@ -264,19 +269,19 @@
                                 <li><a href="#">Legacy</a></li>
                             </ul>
                         </div>
+
                     </div>
                     <div class="col-lg-3 item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a>
                             <p class="copyright">Ntinos-site © 2024</p>
                     </div>
                 </div>
 
-
             </footer>
         </div>
+
     </footer>
 
-
-    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">&#10514;</button>
 
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
