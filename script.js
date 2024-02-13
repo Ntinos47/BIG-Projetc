@@ -40,5 +40,5 @@ function carouselFunction() {
 }
 function artFunction() {
   document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 270;
+  document.documentElement.scrollTop = 280;
 }
