@@ -4,16 +4,13 @@ $(document).ready(function() {
       prevArrow: '.arrow_prev',
       nextArrow: '.arrow_next',
       infinite: true,
-      slidesToShow: 4,
-      slidesToScroll: 1,
 
       autoplay: true,
       autoplaySpeed: 1800,
-      speed: 1500,
+      speed: 1300,
     });
 
 });
-
 
 
 // Get the button
@@ -34,4 +31,14 @@ function scrollFunction() {
 function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
+}
+
+
+function carouselFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 52;
+}
+function artFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 270;
 }

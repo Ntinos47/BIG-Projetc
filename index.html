@@ -6,10 +6,14 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+
     
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     
     <link rel="stylesheet" href="style.css">
     <title>The FPV Hobby</title>
@@ -19,17 +23,17 @@
     <header>
         <div class="navbar-fixed">
             <div class="columns" style="display: flex;">
-                <div class="column is-narrow">
+                <div class="column is-narrow" style="max-width: 100px;">
                     <a href="index.html"><img class="logo-img" src="img/logo.png" alt="logo"></a>
                 </div>
 
-                <div class="column is-2 wrap-nav">
+                <div class="column is-narrow wrap-nav">
                     <a href="index.html" class="nav-btn">Home</a>
                     <div class="dropdown">
                         <button class="dropbtn">Pages</button>
                         <div class="dropdown-content">
-                            <a href="#carousel">Carousel</a>
-                            <a href="#twoArt">Articles</a>
+                            <button onclick="carouselFunction()" id="nav-btn-dd">Carousel</button>
+                            <button onclick="artFunction()" id="nav-btn-dd">Articles</button>
                         </div>
                     </div>
                 </div>
@@ -38,7 +42,7 @@
     </header>
 
     <main>
-        <div id="carousel" class="columns carousel" style="margin-top: 80px;">
+        <div id="carousel" class="columns carousel">
 
             <div class="column is-narrow" style="width: 280px;">
                 <div class="wrap-title">
@@ -46,53 +50,69 @@
                 </div>
             </div>
 
-            <div class="column is-narrow" style="min-width: 100%;">
+            <div class="column is-9">
                 <div class="wrap-ef">
-                    <hr style="height: 3px; width: 1540px; border: none; background-color: #BAFF39;">
+                    <hr style="height: 3px; margin-left: 15px; border: none; background-color: #BAFF39;">
 
                     <div class="wrap-carousel">
                         <div id="slick">
-                            <div class="slick-carousel">
-                                <a href="#">
+                            <div class="slick-carousel" data-slick='{"slidesToShow": 3, "slidesToScroll": 1}'>
+                                <div id="carousel-art">
                                     <div id="wrap-img">
-                                        <img src="img/FPV-1.jpeg">
+                                        <a href="#">
+                                            <img src="img/FPV-1.jpeg">
+                                        </a>
                                     </div>
-                                </a>
-                                <a href="#">
-                                    <div id="wrap-img">  
-                                        <img src="img/FPV-2.jpeg">
+                                </div>
+                                <div id="carousel-art">
+                                    <div id="wrap-img"> 
+                                            <a href="#">
+                                            <img src="img/FPV-2.jpeg">
+                                            </a>
                                     </div>
-                                </a>
-                                <a href="#">
+                                </div>
+                                <div id="carousel-art">
                                     <div id="wrap-img">
-                                        <img src="img/FPV-BEST.jpeg">
+                                        <a href="#">
+                                            <img src="img/FPV-BEST.jpeg">
+                                        </a>
                                     </div>
-                                </a>
-                                <a href="#">
+                                </div>
+                                <div id="carousel-art">
                                     <div id="wrap-img">
-                                        <img src="img/FPV-build.jpeg">
+                                        <a href="#">
+                                            <img src="img/FPV-build.jpeg">
+                                        </a>
                                     </div>
-                                </a>
-                                <a href="#">
+                                </div>
+                                <div id="carousel-art">
                                     <div id="wrap-img">
-                                        <img src="img/DJI-FPV.jpeg">
+                                        <a href="#">
+                                            <img src="img/DJI-FPV.jpeg">
+                                        </a>
                                     </div>
-                                </a>
-                                <a href="#">
-                                    <div id="wrap-img">  
-                                        <img src="img/FPV-1.jpeg">
+                                </div>
+                                <div id="carousel-art">
+                                    <div id="wrap-img"> 
+                                        <a href="#">
+                                            <img src="img/FPV-1.jpeg">
+                                        </a>
                                     </div>
-                                </a>
-                                <a href="#">
+                                </div>
+                                <div id="carousel-art">
                                     <div id="wrap-img">
-                                        <img src="img/FPV-BEST.jpeg">
+                                        <a href="#">
+                                            <img src="img/FPV-BEST.jpeg">
+                                        </a>
                                     </div>
-                                </a>
-                                <a href="#">
+                                </div>
+                                <div  id="carousel-art">
                                     <div id="wrap-img">
-                                        <img src="img/FPV-2.jpeg">
+                                        <a href="#">
+                                            <img src="img/FPV-2.jpeg">
+                                        </a>
                                     </div>
-                                </a>
+                                </div>
                             </div>
                             
                             <div id="slick-buttons">
@@ -117,7 +137,7 @@
 
                 <div class="column is-3">
                     <a href="#">
-                        <article>
+                        <article id="art-one-style">
                             <div class="wrap-img">
                                 <img src="img/FPV-build.jpeg">
                             </div>
@@ -135,7 +155,7 @@
                 
                 <div class="column is-3">
                     <a href="##">
-                        <article>
+                        <article id="art-one-style">
                             <div class="wrap-img">
                                 <img src="img/DJI-FPV.jpeg">
                             </div>
@@ -160,7 +180,7 @@
                 <div class="column is-one-fifth"></div>
                 <div class="column is-one-fifth">
                     <a href="#">
-                        <article>
+                        <article id="art-one-style">
                             <div class="wrap-img">
                                 <img src="img/FPV-3.jpeg">
                             </div>
@@ -178,7 +198,7 @@
                 
                 <div class="column is-one-fifth">
                     <a href="##">
-                        <article>
+                        <article id="art-one-style">
                             <div class="wrap-img">
                                 <img src="img/FPV-BEST.jpeg">
                             </div>
@@ -196,7 +216,7 @@
 
                 <div class="column is-one-fifth">
                     <a href="##">
-                        <article>
+                        <article id="art-one-style">
                             <div class="wrap-img">
                                 <img src="img/FPV-1.jpeg">
                             </div>
@@ -222,29 +242,49 @@
         </div>
     </main>
 
+    <hr style="height: 2px; border: none; background-color: black; margin-bottom: 0px;" alt="Top">
     <footer>
-        <div class="wrap-footer">
-            <hr style="height: 2px; border: none; background-color: black">
-            <div class="columns">
-        
-                <div class="column is-half">
-                    <h3></h3>
-                    <div class="wrap-first-half">
-                        <ul>
-                            <li></li>
-                        </ul>
+
+        <div class="footer-clean">
+            <footer>
+
+                <div class="container">
+                    <div class="column is-narrow" style="max-width: 100px;">
+                        <a href="index.html"><img class="logo-img" src="img/logo.png" alt="logo"></a>
+                    </div>
+
+                    <div class="row justify-content-center flex-footer">
+
+                        <div class="col-sm-4 col-md-3 item-1">
+                            <h3>Services</h3>
+                            <ul>
+                                <li><a href="#">Web design</a></li>
+                                <li><a href="#">Development</a></li>
+                                <li><a href="#">Hosting</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="col-sm-4 col-md-3 item-2">
+                            <h3>About</h3>
+                            <ul>
+                                <li><a href="#">Company</a></li>
+                                <li><a href="#">Team</a></li>
+                                <li><a href="#">Legacy</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-3 item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a>
+                            <p class="copyright">Ntinos-site © 2024</p>
                     </div>
                 </div>
 
-                <div class="column is-half">
-
-                </div>
-            </div>
+            </footer>
         </div>
-    </footer>
-    
 
-    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    </footer>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">&#10514;</button>
 
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
