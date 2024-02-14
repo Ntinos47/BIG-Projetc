@@ -1,6 +1,6 @@
 body {
     padding-top: 70px;
-    background-color: #6E6E6E;
+    background-color: #2a4326b4;
     overflow: hidden;
 }
 
@@ -79,7 +79,8 @@ footer {
 }
 .logo-img:hover {
     padding: 4px;
-    background-color: rgb(83, 83, 83);
+    background-color: #5c8556;
+
 }
 
 
@@ -264,17 +265,16 @@ img {
 
 #art-one-style {
     padding: 10px;
-    background-color: #8b8b8b;
+    background-color: #57654f;
     color: rgb(255, 255, 255);
     border-radius: 20px;
-    border: 2px solid rgb(51, 51, 51);
 }
 #art-one-style img {
-    border: 1px solid gray;
+    border: 1px solid #4c5c49;
     border-radius: 25px;
 }
 #art-one-style:hover {
-    background-color: #a3e429;
+    background-color: #a3e429e8;
     color: rgb(0, 0, 0);
 }
 
