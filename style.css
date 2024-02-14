@@ -56,7 +56,7 @@ footer {
     cursor: pointer;
     border-radius: 14px;
     border: 1px solid black;
-    padding: 6px 8px 2px 8px;
+    padding: 3px 8px 2px 8px;
     font-family: none;
 } 
 #myBtn:hover {
