@@ -7,18 +7,18 @@ body {
 
 
 body::-webkit-scrollbar {
-    width: 12px;               /* width of the entire scrollbar */
-  }
-  
-  body::-webkit-scrollbar-track {
+    width: 14px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
     background: rgb(0, 90, 0);        /* color of the tracking area */
-  }
-  
-  body::-webkit-scrollbar-thumb {
+}
+
+body::-webkit-scrollbar-thumb {
     background-color: lime;    /* color of the scroll thumb */
     border-radius: 20px;       /* roundness of the scroll thumb */
-    border: 3px solid rgb(0, 196, 0);  /* creates padding around scroll thumb */
-  }
+    border: 3.5px solid rgb(0, 90, 0);  /* creates padding around scroll thumb */
+}
 
 
 
