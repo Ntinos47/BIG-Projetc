@@ -22,21 +22,27 @@
 
     <header>
         <div class="navbar-fixed">
-            <div class="columns" style="display: flex;">
-                <div class="column is-narrow" style="max-width: 100px;">
+            <div class="columns nav-placement">
+                
+                <div class="column is-narrow" style="width: 60px;">
+                    <div class="hamburger-menu">
+                        <input id="menu__toggle" type="checkbox" />
+                        <label class="menu__btn" for="menu__toggle">
+                        <span></span>
+                        </label>
+                    
+                        <ul class="menu__box">
+                        <li><a class="menu__item" href="#">Home</a></li>
+                                <li><a class="menu__item" onclick="carouselFunction()">Carousel</a></li>
+                                <li><a class="menu__item" onclick="artFunction()">Articles</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="column is-narrow logo">
                     <a href="index.html"><img class="logo-img" src="img/logo.png" alt="logo"></a>
                 </div>
 
-                <div class="column is-narrow wrap-nav">
-                    <a href="index.html" class="nav-btn">Home</a>
-                    <div class="dropdown">
-                        <button class="dropbtn">Pages</button>
-                        <div class="dropdown-content">
-                            <button onclick="carouselFunction()" id="nav-btn-dd">Carousel</button>
-                            <button onclick="artFunction()" id="nav-btn-dd">Articles</button>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </header>
